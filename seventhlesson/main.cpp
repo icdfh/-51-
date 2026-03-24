@@ -103,4 +103,28 @@ int main(){
 		cout<<endl;
 	}
 	
+    int arr[3][3];
+	srand(time(0));
+		
+	for(int i = 0; i < 3; i++){
+		for(int j = 0; j < 3; j++){
+			arr[i][j] = rand() % 10 + 1;
+		}
+	}	
+	cout<<"Массив: "<< endl;
+	for(int i = 0; i < 3; i++){
+		for(int j = 0; j < 3; j++){
+			cout << arr[i][j] << "\t";
+		}
+		cout<<endl;
+	}
+	cout << endl;
+
+	for(int i = 0; i < 3; i++){
+		int rowSum = 0;
+		for(int j = 0; j < 3; j++){
+			rowSum += arr[i][j];
+		}
+		cout<<"сУММА СТРОКИ"<< i <<" = " << rowSum << endl;
+	}
 }
