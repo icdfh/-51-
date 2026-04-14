@@ -117,14 +117,14 @@ int main(){
 	// cout<< x << endl;
 	// printInfo();
 
-	int numbers[5] = {10,20,30,40,50};
+// 	int numbers[5] = {10,20,30,40,50};
 
-	printArray(numbers, 5);
-  cout<<"Сумма: " << sumArray(numbers,5) <<endl; 
-	cout << "Максимум: " << findMax(numbers, 5) << endl;
-	return 0;
-}
+// 	printArray(numbers, 5);
+//   cout<<"Сумма: " << sumArray(numbers,5) <<endl; 
+// 	cout << "Максимум: " << findMax(numbers, 5) << endl;
+// 	return 0;
+// }
 
-void printInfo(){
-	cout<<"Hello";
+// void printInfo(){
+// 	cout<<"Hello";
 }
