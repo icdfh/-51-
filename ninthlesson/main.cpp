@@ -3,7 +3,7 @@
 // using namespace std;
 
 // int main() {
-    # // string fullName;
+    // string fullName;
     # // cout << "Enter ur full name: ";
     # // getline(cin,fullName);
     # // cout<<"Ur full name: " << fullName << endl;
