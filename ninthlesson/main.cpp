@@ -118,6 +118,32 @@
 
 
 
+/ int arr[5] = {10,20,30,40,50};
+    
+    // cout << arr[0] << endl;
+    // cout << &arr[3] << endl;
+    // cout << arr << endl;
+    
+    // int arr[3] = {5,10,15};
+    // int *p = arr;
+    
+    // cout << "p = " << p << endl;
+    // cout << "p = " << *p << endl;
+    
+    // int arr[4] = {1,20,30,40};
+    // int *p = arr;
+    
+    // cout << *p << endl;
+    // cout << *(p + 1) << endl;
+    // cout << *(p + 2) << endl;
+    // cout << *(p + 3) << endl;
+    
+    int arr[4] = {11,22,33,44};
+    int *p = arr;
+    
+    for (int i = 0; i < 4; i++){
+        cout << "arr[" << i << "] = " << *(p + i) << endl;
+    }
 
 
 
