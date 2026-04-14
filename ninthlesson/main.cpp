@@ -73,4 +73,53 @@
     # // cout << text << endl;
     
 //     return 0;
+
+
+
+
+
+
+
+// =====================УКАЗАТЕЛИ==================
+
+    // int x = 10;
+    
+    // cout<<"Value: " << x << endl;
+    // cout<<"Address: " << &x << endl;
+    
+    // int age = 18;
+    // double score = 95.5;
+    // char grade = 'A';
+    
+    // cout<< &age << endl;
+    // cout << &score << endl;
+    // cout << (void*)&grade << endl;
+    
+    // int x = 25;
+    // int *p = &x;
+    
+    // cout<<"x = " << x << endl;
+    // cout << "Address of x = " << &x << endl;
+    // cout<<p<<endl;
+    
+    int x = 50;
+    int *p = &x;
+    
+    cout << "x = " << x << endl;
+    cout << "p = " << p << endl;
+    cout << "*p = " << *p << endl;
+
+    // int x = 100;
+    // int *p = &x;
+    
+    // *p = 200;
+    // cout<<"x = " << x << endl;
+    // cout << "*p = " << *p << endl;
+
+
+
+
+
+
+
 // }
