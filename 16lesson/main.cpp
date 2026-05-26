@@ -134,3 +134,75 @@ int main(){
         delete devices[i];
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+class Song{
+private:
+    string title;
+    string artist;
+    int duration;
+
+public:
+    Song(){
+        title = "Unknown";
+        artist = "Unknown";
+        duration = 0;
+    }
+
+    Song(string songTitle, string songArtist, int songDuration){
+        title = songTitle;
+        artist = songArtist;
+        duration = songDuration;
+    }
+    void printSong(){
+        cout<<"Название: " << title << endl;
+        cout<<"Исполниель: " << artist << endl;
+        cout<<"Длительность: " << duration << "секунд" << endl;
+    }
+};
+class Playlist{
+private:
+    string name;
+    Song songs[3];
+
+public:
+    Playlist(string playlistName, Song s1, Song s2, Song s3){
+        name = playlistName;
+        songs[0] = s1;
+        songs[1] = s2;
+        songs[2] = s3;
+    }
+    
+    void printPlaylist(){
+        cout<<"Плейлист: " << name << endl;
+        for(int i = 0; i < 3; i++){
+        songs[i].printSong();
+    }
+    }
+    
+    
+};
+
+int main(){
+    Song song1("Smells teen like spirit", "Nirvana",200);
+    Song song2("Smells teen like spirit", "Nirvana",200);
+    Song song3("Smells teen like spirit", "Nirvana",200);
+    Playlist playlist("Тренировка", song1,song2,song3);
+    
+    playlist.printPlaylist();
+}
