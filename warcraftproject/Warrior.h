@@ -10,4 +10,4 @@ public:
 
     void attack(Unit& target) override;
     void move() override;
-}
+};
